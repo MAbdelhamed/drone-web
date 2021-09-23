@@ -16,13 +16,14 @@ float: left;
 overflow: hidden;
 clear: both;
 list-style: none;
+padding: 0;
 
 }
 .grid-item{
 border: 1px;
 border-style: double;
 border-color: black;
-margin: 3%;
+margin: 1rem;
 background-color: #f7f5f1;
 border-radius: 4%;
 }
@@ -55,15 +56,15 @@ border-radius: 4%;
 
 }
     .grid-floats > .grid-item:first-child {
-    width: 40%;
+    width: calc(50% - 3rem);
     
 }
 
 .grid-floats>.grid-item:nth-child(2){
-    width: 40%;
+    width: calc(50% - 3rem);
 }
 .grid-floats>.grid-item{
-    width:25%;
+    width:calc(33% - 2rem);
 }
 .grid-item img:hover{
     opacity: 0.5;
@@ -81,19 +82,19 @@ border-radius: 4%;
     
     }
         .grid-floats > .grid-item:first-child {
-        width: 42%;
+        width: calc(50% - 4rem);
         
     }
     
     .grid-floats>.grid-item:nth-child(2){
-        width: 18%;
+        width: calc(25% - 2rem);
     }
     .grid-floats>.grid-item:nth-child(3){
-        width: 18%;
+        width: calc(25% - 2rem);
     }
     
     .grid-floats>.grid-item{
-        width:18%;
+        width:calc(25% - 3rem);
     }
     .grid-item img:hover{
         opacity: 0.5;
@@ -107,7 +108,7 @@ border-radius: 4%;
         display: flex;
         flex-direction: column;
         list-style: none;
-        
+        padding: 0;
     }
     .grid-flex>.grid-item{
         width: 100;
@@ -124,24 +125,24 @@ border-radius: 4%;
 
     }
     .grid-flex>.grid-item{
-        flex-basis: 18%;
+        
         text-decoration: none;
         max-height: 350px;
         overflow-y: scroll;
     
     }
     .grid-flex > .grid-item:first-child {
-        flex-basis:  40%;
+        flex-basis:  calc(50% - 3rem);
         
     }
     
     .grid-flex>.grid-item:nth-child(2){
-        flex-basis: 40%;
+        flex-basis: calc(50% - 3rem);
     }
     
     
     .grid-flex>.grid-item{
-        flex-basis: 25%;
+        flex-basis: calc(33% - 2rem);
     } 
     .grid-item img:hover{
         opacity: 0.5;
@@ -155,29 +156,30 @@ border-radius: 4%;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            padding: 0;
 
         }
         .grid-flex>.grid-item{
-            flex-basis: 18%;
+            
             text-decoration: none;
             max-height: 350px;
             overflow-y: scroll;
         
         }
         .grid-flex > .grid-item:first-child {
-            flex-basis:  42%;
+            flex-basis:  calc(50% - 4rem);
             
         }
         
         .grid-flex>.grid-item:nth-child(2){
-            flex-basis: 18%;
+            flex-basis: calc(25% - 2rem);
         }
         .grid-flex>.grid-item:nth-child(3){
-            flex-basis: 18%;
+            flex-basis:  calc(25% - 2rem);
         }
         
         .grid-flex>.grid-item{
-            width:18%;
+            width: calc(25% - 3rem);
         } 
         .grid-item img:hover{
             opacity: 0.5;
