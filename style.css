@@ -62,10 +62,10 @@ border-radius: 4%;
 }
 
 .grid-floats>.grid-item:nth-child(2){
-    width: calc(50% - 3rem);
+    width: calc(50% - 3rem );
 }
 .grid-floats>.grid-item{
-    width:calc(33% - 2rem);
+    width:calc(33% - 2rem - 10px);
 }
 .grid-item img:hover{
     opacity: 0.5;
@@ -88,10 +88,10 @@ border-radius: 4%;
     }
     
     .grid-floats>.grid-item:nth-child(2){
-        width: calc(25% - 2rem);
+        width: calc(25% - 2rem - 5px);
     }
     .grid-floats>.grid-item:nth-child(3){
-        width: calc(25% - 2rem);
+        width: calc(25% - 2rem - 20px);
     }
     
     .grid-floats>.grid-item{
@@ -143,7 +143,7 @@ border-radius: 4%;
     
     
     .grid-flex>.grid-item{
-        flex-basis: calc(33% - 2rem);
+        flex-basis: calc(33% - 2rem - 10px);
     } 
     .grid-item img:hover{
         opacity: 0.5;
@@ -173,10 +173,10 @@ border-radius: 4%;
         }
         
         .grid-flex>.grid-item:nth-child(2){
-            flex-basis: calc(25% - 2rem);
+            flex-basis: calc(25% - 2rem - 5px );
         }
         .grid-flex>.grid-item:nth-child(3){
-            flex-basis:  calc(25% - 2rem);
+            flex-basis:  calc(25% - 2rem - 20px);
         }
         
         .grid-flex>.grid-item{
